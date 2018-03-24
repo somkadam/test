@@ -10,7 +10,7 @@ pipeline {
                 }
                 steps {
                         //echo ‘Building..’
-                        sh '/media/usb/CYELP/first.sh'
+                        sh '/media/usb/CYELP/first4.sh'
                         }
                     }
             stage(‘Test’) {
@@ -19,7 +19,7 @@ pipeline {
                 }
                 steps {
                         //echo ‘Testing..’
-                        sh '/media/usb/CYELP/first.sh'
+                        sh '/media/usb/CYELP/first4.sh'
                     }
                 }
 
