@@ -6,6 +6,7 @@ pipeline {
             stage(‘Build’) {
                 agent {
                     //label 'node1-neelu'
+                    //label 'node1-neelu'
                     label 'build'
                 }
                 steps {
